@@ -1,0 +1,126 @@
+Body {
+  background-color:#2e74b6;
+  color:black;
+}
+
+/*navigation bar*/
+#navbar {
+  margin-top:10px;
+  text-align:center;
+  position:fixed;
+  top:0;
+  overflow: hidden;
+  width:100%;
+}
+
+#navbar li {
+  display:inline;
+}
+
+#navbar li a {
+  text-decoration: none;
+  color:black;
+  padding:10px;
+}
+
+@media only screen and (max-width: 600px) #navbar {
+}
+
+/* divs in welcome-section */
+#welcome-section {
+  margin-top:40px;
+  height:100vh;
+  
+}
+
+ .img-box {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:400px;
+  height:250px;
+  overflow:hidden;
+  border: 1px solid black;
+}
+
+.img-box img {
+ margin: -350px -10px 10px -270px;
+ 
+}
+
+#left-side {
+  width:50%;
+  height:280px;
+  float:left;
+  text-align:center;
+}
+
+#right-side {
+  width:50%;
+  height:280px;
+  float:right;
+  text-align:center;
+  padding: 30px 0;
+}
+
+#line {
+   border-top: 2px solid white;
+   margin-left:25%;
+   margin-right:25%;
+   width:50%;
+}
+
+#text-for-jr-web-dev {
+  margin-top:5px;
+}
+
+/*projects for text for resume section*/
+
+#projects h3{
+  text-align:center;
+}
+
+
+/*Codepen tiles for resume section*/
+
+.project-tile-container {
+  column-count:4;
+  align-content: center;
+  padding:5px 5px 5px 150px;
+}
+
+.project-tile {
+  width:200px;
+  Height:150px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 10px black;
+  background-color: gray;
+  padding-top:65px;
+  color:black;
+  text-align: center;
+}
+
+.project-tile a {
+  text-decoration: none;
+  color:black;
+  padding:10px;
+}
+
+/*github project link*/
+#profile-link{
+  text-decoration:none;
+  color:black;
+}
+
+/*contact me section*/
+#right-side-contact-me {
+  width:50%;
+  float:right;
+  text-align:right;
+}
+
+#left-side-contact-me {
+  width:50%;
+  float:left;
+  text-align:left;
+}
